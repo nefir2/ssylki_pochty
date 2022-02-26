@@ -44,24 +44,22 @@
 			<a id="ge" href="https://mail.google.com/mail/u/0/?hl=ru&tf=cm&fs=1&to=paliyge@26kadr.ru">paliyge@26kadr.ru</a>.<br>
 		</center>
 		<script type="text/javascript">
+			//переменные
 			let olay, inpt;
 			var yes;
-			inpt = document.getElementById('btn');
-			olay = document.getElementsByTagName('a');
+			//места из html
+			inpt = document.getElementById('btn'); //галочка (checkbox)
+			olay = document.getElementsByTagName('a'); //все теги "a"
+			//нажатие на галочку
 			inpt.addEventListener('click', trueno);
+			//значение для переменной при открытии страницы
 			yes = false;
+			//функция при нажатии на галочку
 			function trueno() {
-				yes = !yes;
-				if (yes){
-					for (var i = 0; i < olay.length; i++) {
-						olay[i].setAttribute('target', '_blank');
-					}
-				}
-				else {
-					for (var i = 0; i < olay.length; i++) {
-						olay[i].removeAttribute('target');
-					}
-				}
+				//решение добавлять атрибут или нет
+				yes = !yes; //при срабатывании функции меняется значение переменной на противоположное
+				if (yes) { for (var i = 0; i < olay.length; i++) olay[i].setAttribute('target', '_blank'); }
+				else { for (var i = 0; i < olay.length; i++) olay[i].removeAttribute('target'); }
 			}
 		</script>
 	</body>
