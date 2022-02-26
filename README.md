@@ -1,4 +1,5 @@
 # ssylki_pochty
 ranobe, manga and html file
 
-do not touch ranobe and manga, they are bad. you can download only html file.
+файл для быстрого перехода по ссылкам или получение важной почты.
+в отдельной ветке должно быть то чего быть не должно.
