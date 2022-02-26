@@ -14,8 +14,20 @@ body{
 div {
 	text-align: center;
 }
-span {
+#mini {
 	font-size: 20px;
+}
+.jump {
+	line-height: 40px;
+}
+.surname {
+	color: rgba(83, 0, 216, 0.623);
+}
+.jandex {
+	color: #F63F1D;
+}
+.uch {
+	color: #cece00af;
 }
 a {
 	text-decoration: none;
