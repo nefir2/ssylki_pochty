@@ -1,0 +1,23 @@
+body{
+	background-color:rgb(0, 16, 70);
+	font-size: 20pt;
+	color: #000000; /* для быстрого изменения цвета текста (кроме гипертекста) */
+	background-image: url(https://pp.userapi.com/gbqDF3HgMPrww5uBvXdE1X1GaoYqiWhNFissJw/e_EZy8eXIUU.jpg);
+	/*    фоны    */
+	/* vdm */
+	/* https://pp.userapi.com/wbX4BzyiCK6PJFrjsLREWoch_CbFH1x-urWdow/40iSSLny_jI.jpg */
+	/* https://pp.userapi.com/gbqDF3HgMPrww5uBvXdE1X1GaoYqiWhNFissJw/e_EZy8eXIUU.jpg */
+	/* https://pp.userapi.com/jVkTKLjqHn93nlEQ61pAtL2oT9UBiZRJUidjEA/ZEkK-4k6dOo.jpg */
+	/* серж */
+	/* https://kartinkin.net/uploads/posts/2020-07/1593792449_25-p-temnii-anime-fon-43.jpg */
+}
+div {
+	text-align: center;
+}
+span {
+	font-size: 20px;
+}
+a {
+	text-decoration: none;
+	color: #116cd4;
+}

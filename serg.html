@@ -2,31 +2,7 @@
 <html>
 	<head>
 		<title>ссылки, почты</title>
-		<style type="text/css">
-			body{
-				background-color:rgb(0, 16, 70);
-				font-size: 20pt;
-				color: #000000; /* для быстрого изменения цвета текста (кроме гипертекста) */
-				background-image: url(https://pp.userapi.com/gbqDF3HgMPrww5uBvXdE1X1GaoYqiWhNFissJw/e_EZy8eXIUU.jpg);
-				/*    фоны    */
-				/* vdm */
-				/* https://pp.userapi.com/wbX4BzyiCK6PJFrjsLREWoch_CbFH1x-urWdow/40iSSLny_jI.jpg */
-				/* https://pp.userapi.com/gbqDF3HgMPrww5uBvXdE1X1GaoYqiWhNFissJw/e_EZy8eXIUU.jpg */
-				/* https://pp.userapi.com/jVkTKLjqHn93nlEQ61pAtL2oT9UBiZRJUidjEA/ZEkK-4k6dOo.jpg */
-				/* серж */
-				/* https://kartinkin.net/uploads/posts/2020-07/1593792449_25-p-temnii-anime-fon-43.jpg */
-			}
-			div {
-				text-align: center;
-			}
-			span {
-				font-size: 20px;
-			}
-			a {
-				text-decoration: none;
-				color: #116cd4;
-			}
-		</style>
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		<input type="checkbox" name="targeting" id="btn">
@@ -46,25 +22,7 @@
 			<a id="ei" href="https://mail.google.com/mail/u/0/?hl=ru&tf=cm&fs=1&to=zyablovei@26kadr.ru">zyablovei@26kadr.ru</a>;<br>
 			<a id="ds" href="https://mail.google.com/mail/u/0/?hl=ru&tf=cm&fs=1&to=pervushinds@26kadr.ru">pervushinds@26kadr.ru</a>;<br>
 		</div>
-		<script type="text/javascript">
-			//переменные
-			let olay, inpt;
-			var yes;
-			//места из html
-			inpt = document.getElementById('btn'); //галочка (checkbox)
-			olay = document.getElementsByTagName('a'); //все теги "a"
-			//нажатие на галочку
-			inpt.addEventListener('click', trueno);
-			//значение для переменной при открытии страницы
-			yes = false;
-			//функция при нажатии на галочку
-			function trueno() {
-				//решение добавлять атрибут или нет
-				yes = !yes; //при срабатывании функции меняется значение переменной на противоположное
-				if (yes) { for (var i = 0; i < olay.length; i++) olay[i].setAttribute('target', '_blank'); }
-				else { for (var i = 0; i < olay.length; i++) olay[i].removeAttribute('target'); }
-			}
-		</script>
+		<script src="program.js"></script>
 	</body>
 </html>
 <!--
