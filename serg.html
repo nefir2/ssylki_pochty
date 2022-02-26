@@ -18,6 +18,9 @@
 				/* серж */
 				/* https://kartinkin.net/uploads/posts/2020-07/1593792449_25-p-temnii-anime-fon-43.jpg */
 			}
+			span {
+				font-size: 20px;
+			}
 			a {
 				text-decoration: none;
 				color: #1a55eb;
@@ -25,6 +28,8 @@
 		</style>
 	</head>
 	<body>
+		<input type="checkbox" name="targeting" id="btn">
+		<span>открыть в новом окне</span>
 		<center>
 			<br><br><br><br><br><br><br>
 			ссылки:<br><br>
@@ -40,18 +45,34 @@
 			<a id="ds" href="https://mail.google.com/mail/u/0/?hl=ru&tf=cm&fs=1&to=pervushinds@26kadr.ru">pervushinds@26kadr.ru</a>;<br>
 			<a id="ge" href="https://mail.google.com/mail/u/0/?hl=ru&tf=cm&fs=1&to=paliyge@26kadr.ru">paliyge@26kadr.ru</a>.<br>
 		</center>
+		<script type="text/javascript">
+			let olay, inpt;
+			var yes;
+			inpt = document.getElementById('btn');
+			olay = document.getElementsByTagName('a');
+
+			inpt.addEventListener('click', trueno);
+			yes = false;
+			function trueno() {
+				yes = !yes;
+				if (yes){
+					for (var i = 0; i < olay.length; i++) {
+						olay[i].setAttribute('target', '_blank');
+					}
+				}
+				else {
+					for (var i = 0; i < olay.length; i++) {
+						olay[i].removeAttribute('target');
+					}
+				}
+			}
+			
+		</script>
 	</body>
 </html>
 <!--
 	target="_blank"
 	<a target="_blank" href="https://disk.yandex.ru/d/synITzVnQL3ysQ"> Задания бд</a>;<br>
 	<a target="_blank" href="https://us04web.zoom.us/j/5671965296?pwd=ZFB1WTQ4T2NhUVBOdlUvVzlNNUtsUT09"> ZOOM Смольников В. В.</a>;<br>
-	<a target="_blank" href="https://disk.yandex.ru/d/49TQDgeBnFv4Bg"> Задания ос</a>;<br>
-
-	//попытка создания рандомного фона (ничего не вышло)
-	<script type="text/javascript">
-			let here;
-			here = document.getElementById('there');
-			document.here.style.backgroundColor = 'white';
-		</script>
+	<a target="_blank" href="https://disk.yandex.ru/d/49TQDgeBnFv4Bg"> Задания ос</a>;<br>	
 -->
