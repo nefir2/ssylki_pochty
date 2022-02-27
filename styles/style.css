@@ -4,47 +4,31 @@ body{
 	color: #000000; /* для быстрого изменения цвета текста (кроме гипертекста) */
 	background-image: url(../pics/girl\ and\ the\ pond.jpg);
 	/*    фоны    */
-	/* vdm */
+	/* vdm's */
 	/* https://pp.userapi.com/wbX4BzyiCK6PJFrjsLREWoch_CbFH1x-urWdow/40iSSLny_jI.jpg */
 	/* url(../pics/girl\ and\ the\ pond.jpg) */
 	/* url(../pics/miku_5.jpg) */
-	/* серж */
+	/* серж's */
 	/* url(../pics/1593792449_25-p-temnii-anime-fon-43.jpg) */
 }
 div {
 	text-align: center;
 	transform: translateY(40%);
 }
-#mini {
-	font-size: 20px;
-}
 .text {
 	text-decoration: none;
 	color: #000000;
-	cursor: text;
-}
-.jump {
-	line-height: 40px;
-}
-.surname {
-	color: rgba(83, 0, 216, 0.623);
-}
-.jandex {
-	color: #F63F1D;
-}
-.uch {
-	color: #cece00af;
-}
-.dis {
-	color: #5865F2;
-}
-.typing {
-	color: #383838;
-}
-.typtext {
 	cursor: text;
 }
 a {
 	text-decoration: none;
 	color: #116cd4;
 }
+#mini { font-size: 20px; }
+.jump { line-height: 40px; }
+.surname { color: rgba(83, 0, 216, 0.623); }
+.jandex { color: #F63F1D; }
+.uch { color: #cece00af; }
+.dis { color: #5865F2; }
+.typing { color: #383838; }
+.typtext { cursor: text; }

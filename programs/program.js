@@ -3,7 +3,7 @@ let olay, inpt;
 var yes;
 //места из html
 inpt = document.getElementById('btn'); //галочка (checkbox)
-olay = document.getElementsByTagName('a'); //все теги "a"
+olay = document.getElementsByClassName('targ'); //все теги "a"
 //нажатие на галочку
 inpt.addEventListener('click', trueno);
 //значение для переменной при открытии страницы
