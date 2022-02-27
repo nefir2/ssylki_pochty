@@ -25,7 +25,10 @@ a {
 	text-decoration: none;
 	color: #6c0880;
 }
-#mini { font-size: 20px; }
+#mini {
+	font-size: 20px;
+	cursor: pointer;
+}
 .curstext { cursor: text; }
 .jump { line-height: 40px; }
 .surname { color: #962997; }
