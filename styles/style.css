@@ -41,6 +41,9 @@ div {
 .typing {
 	color: #383838;
 }
+.typtext {
+	cursor: text;
+}
 a {
 	text-decoration: none;
 	color: #116cd4;
