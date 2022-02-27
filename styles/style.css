@@ -1,8 +1,9 @@
 body{
 	background-color:rgb(0, 16, 70);
 	font-size: 20pt;
-	color: #000000; /* для быстрого изменения цвета текста (кроме гипертекста) */
-	background-image: url(../pics/miku_5.jpg);
+	color: #685555; /* для быстрого изменения цвета текста (кроме гипертекста) */
+	background-image: url("../pics/miku_5.jpg");
+	background-size: cover;
 	/*    фоны    */
 	/* vdm's */
 	/* https://pp.userapi.com/wbX4BzyiCK6PJFrjsLREWoch_CbFH1x-urWdow/40iSSLny_jI.jpg */
@@ -17,7 +18,7 @@ div {
 }
 .text {
 	text-decoration: none;
-	color: #000000;
+	color: #ddcfcf;
 	cursor: text;
 }
 a {
