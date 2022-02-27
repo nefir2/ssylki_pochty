@@ -13,6 +13,7 @@ body{
 }
 div {
 	text-align: center;
+	transform: translateY(40%);
 }
 #mini {
 	font-size: 20px;
@@ -33,6 +34,12 @@ div {
 }
 .uch {
 	color: #cece00af;
+}
+.dis {
+	color: #5865F2;
+}
+.typing {
+	color: #383838;
 }
 a {
 	text-decoration: none;
