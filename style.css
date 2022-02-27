@@ -17,6 +17,11 @@ div {
 #mini {
 	font-size: 20px;
 }
+.text {
+	text-decoration: none;
+	color: #000000;
+	cursor: text;
+}
 .jump {
 	line-height: 40px;
 }
