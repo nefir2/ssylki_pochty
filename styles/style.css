@@ -3,7 +3,7 @@ body{
 	font-size: 20pt;
 	color: #8d5f8a; /* для быстрого изменения цвета текста (кроме гипертекста) */
 	background-image: url(../pics/phon/miku_5.jpg);
-	background-size: left;
+	background-size: 70em;
 	/*    фоны    */
 	/* vdm's */
 	/* https://pp.userapi.com/wbX4BzyiCK6PJFrjsLREWoch_CbFH1x-urWdow/40iSSLny_jI.jpg */
@@ -33,6 +33,7 @@ a {
 .jump { line-height: 40px; }
 .surname { color: #962997; }
 .jandex { color: #F63F1D; }
+.gugol { color: #26e7de}
 .uch { color: #cece00af; }
 .dis { color: #5865F2; }
 .typing { color: #383838; }
