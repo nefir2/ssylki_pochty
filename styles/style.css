@@ -1,12 +1,11 @@
 body {
-	background-color: rgb(0, 10, 44);
-	font-size: 20pt;
+	background-color: #0B0B0B;
+	font-size: 27pt;
 	color: #ddcfcf;
-	/*color: #c0abbe; */
 	background-image: url(../pics/phon/miku_5.jpg);
 	background-repeat: no-repeat;
 	background-size:100%;
-	/*background-size: 70em;*/
+
 	/*    фоны    */
 	/* vdm's */
 	/* https://pp.userapi.com/wbX4BzyiCK6PJFrjsLREWoch_CbFH1x-urWdow/40iSSLny_jI.jpg */
@@ -20,15 +19,14 @@ body {
 	text-decoration: none;
 	color: #ddcfcf;
 	cursor: text;
+}
+
+#firstTableData{
+	
 }*/
-#fullBase{
+#refdiv{
 	vertical-align: middle;
 }
-/*
-#firstTableData{
-	text-align: center;
-}
-*/
 a {
 	text-decoration: none;
 	color: #962997;
@@ -57,7 +55,7 @@ a {
 #div1 { text-align: center; }
 */
 .sign_word {
-	font-size: 20pt;
+	font-size: 30pt;
 	font-weight: bold;
 	line-height: 30px;
 	color: #ddcfcf;
