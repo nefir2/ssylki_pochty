@@ -9,41 +9,52 @@
 	<body>
 		<input type="checkbox" id="btn">
 		<label for="btn"><span id="mini">открывать в новом окне</span></label>
-	<div id="div">
-		<span class="disk">
-			<b class="sign_word">Ссылки:</b><br>
-			<a class="targ" href="https://disk.yandex.ru/d/KO7EoxU_kfFohA"><span class="surname">Смольникова</span></a>;<br>
-			<a class="targ" href="https://disk.yandex.ru/d/I0WO5UtkXqsSlg"><span class="surname">Зяблова</span></a>;<br>
-			<a class="targ" href="https://disk.yandex.ru/d/Fzhy_YQU0TZ8uw"><span class="surname">Попов</span></a>;<br>
-			<a class="targ" href="https://drive.google.com/drive/folders/1VSmRDkvXiQUlA4yIASDk_b2l5Hl9JIMp"><span class="surname">Первушина</span></a>;<br>
-		</span>
-		<!--	<a class="targ" href="https://discord.gg/n6gdmCCyU4"><span class="dis">дискорд</span> <span class="surname">Первушина</span></a>;<br>-->
-		<span id="book">
-			<b class="sign_word">Учебники:</b><br>
-			<a class="targ"  href="http://htmlbook.ru">HTML и CSS</a>;<br>
-			<a class="targ"  href="https://learn.javascript.ru">JavaScript</a>;<br>
-			<a class="targ"  href="https://metanit.com/sharp/tutorial/3.35.php">C#</a>;<br>
-		</span>
-	</div>
-	<div id="div1">
-		<span id="Other">
-			<b class="sign_word">Прочее:</b><br>
-			<a class="targ" href="https://discord.gg/n6gdmCCyU4">дискорд Первушина</a>;<br>
-			<a class="targ" href="https://www.typingstudy.com/ru-russian-3/lesson/1">курс печатания десятью пальцами</a>;<br>
-			<a class="targ" href="https://10fastfingers.com/typing-test/russian">проверка скорости печатания</a>;<br>
-		</span>
-		<span id="Mail">	
-			<b class="sign_word">почты:</b><br>
-			<a class="targ" href="https://mail.google.com/mail/u/0/?hl=ru&tf=cm&fs=1&to=popovde@26kadr.ru">popovde@26kadr.ru</a>;<br>
-			<a class="targ" href="https://mail.google.com/mail/u/0/?hl=ru&tf=cm&fs=1&to=zyablovei@26kadr.ru">zyablovei@26kadr.ru</a>;<br>
-			<a class="targ" href="https://mail.google.com/mail/u/0/?hl=ru&tf=cm&fs=1&to=pervushinds@26kadr.ru">pervushinds@26kadr.ru</a>.<br>
-		</span>	
-	</div>
+		<table id="fullBase">
+			<tr>
+				<td id="firstTableData">
+					<span class="disk">
+						<b class="sign_word">Ссылки:</b><br>
+						<a class="targ" href="https://disk.yandex.ru/d/KO7EoxU_kfFohA"><span class="surname">Смольникова</span></a>;<br>
+						<a class="targ" href="https://disk.yandex.ru/d/I0WO5UtkXqsSlg"><span class="surname">Зяблова</span></a>;<br>
+						<a class="targ" href="https://disk.yandex.ru/d/Fzhy_YQU0TZ8uw"><span class="surname">Попов</span></a>;<br>
+					</span>
+				</td>
+				<td id="secondTableData">
+					<span id="book">
+						<b class="sign_word">Учебники:</b><br>
+						<a class="targ" href="http://htmlbook.ru">HTML и CSS</a>;<br>
+						<a class="targ" href="https://learn.javascript.ru">JavaScript</a>;<br>
+						<a class="targ" href="https://metanit.com/sharp/tutorial/3.35.php">C#</a>;<br>
+					</span>
+				</td>
+			</tr>
+			<tr>
+				<td id="thirdTableData">
+					<span id="Other">
+						<b class="sign_word">Прочее:</b><br>
+						<a class="targ" href="https://discord.gg/n6gdmCCyU4">дискорд Первушина</a>;<br>
+						<a class="targ" href="https://www.typingstudy.com/ru-russian-3/lesson/1">курс печатания десятью пальцами</a>;<br>
+						<a class="targ" href="https://10fastfingers.com/typing-test/russian">проверка скорости печатания</a>;<br>
+					</span>
+				</td>
+				<td id="fourthTableData">
+					<span id="Mail">
+					<b class="sign_word">почты:</b><br>
+					<a class="targ" href="https://mail.google.com/mail/u/0/?hl=ru&tf=cm&fs=1&to=popovde@26kadr.ru">popovde@26kadr.ru</a>;<br>
+					<a class="targ" href="https://mail.google.com/mail/u/0/?hl=ru&tf=cm&fs=1&to=zyablovei@26kadr.ru">zyablovei@26kadr.ru</a>;<br>
+					<a class="targ" href="https://mail.google.com/mail/u/0/?hl=ru&tf=cm&fs=1&to=pervushinds@26kadr.ru">pervushinds@26kadr.ru</a>.<br>
+					</span>
+				</td>
+			</tr>
+		</table>
+		
 		<script src="programs/program.js"></script>
 	</body>
 </html>
-<!--старые ссылки:
+<!--
+	старые ссылки:
 	<a href="https://disk.yandex.ru/d/synITzVnQL3ysQ"> Задания бд</a>;<br>
 	<a href="https://us04web.zoom.us/j/5671965296?pwd=ZFB1WTQ4T2NhUVBOdlUvVzlNNUtsUT09"> ZOOM Смольников В. В.</a>;<br>
 	<a href="https://disk.yandex.ru/d/49TQDgeBnFv4Bg"> Задания ос</a>;<br>
+	<a class="targ" href="https://drive.google.com/drive/folders/1VSmRDkvXiQUlA4yIASDk_b2l5Hl9JIMp"><span class="surname">Первушина</span></a>;<br>
 -->

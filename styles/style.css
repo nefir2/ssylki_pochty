@@ -1,10 +1,12 @@
-body{
-	background-color:rgb(0, 16, 70);
+body {
+	background-color: rgb(0, 10, 44);
 	font-size: 20pt;
-    color: #ddcfcf;
-	/*color: #c0abbe; *//* для быстрого изменения цвета текста (кроме гипертекста) */
+	color: #ddcfcf;
+	/*color: #c0abbe; */
 	background-image: url(../pics/phon/miku_5.jpg);
-	background-size: 70em;
+	background-repeat: no-repeat;
+	background-size:100%;
+	/*background-size: 70em;*/
 	/*    фоны    */
 	/* vdm's */
 	/* https://pp.userapi.com/wbX4BzyiCK6PJFrjsLREWoch_CbFH1x-urWdow/40iSSLny_jI.jpg */
@@ -13,86 +15,89 @@ body{
 	/* серж's */
 	/* url(../pics/1593792449_25-p-temnii-anime-fon-43.jpg) */
 }
+/*
 .text {
 	text-decoration: none;
 	color: #ddcfcf;
 	cursor: text;
+}*/
+#fullBase{
+	vertical-align: middle;
 }
+/*
+#firstTableData{
+	text-align: center;
+}
+*/
 a {
 	text-decoration: none;
-    color: #962997;
+	color: #962997;
 }
 #mini {
 	font-size: 20px;
 	cursor: pointer;
 }
+/*
 .disk {
-	
 	position: relative;
 	top: 155px;
 	right: 500px;
 }
-#book {
-	position: relative;
-	
-	
-}
+#book { position: relative; }
 #Mail {
 	position: relative;
 	bottom: 24px;
 }
-#Other{
+#Other {
 	position: relative;
 	right: 500px;
 	top: 100px;
 }
-#div {
-	text-align: center;
-}
-#div1 {
-	text-align: center;
-}
+#div { text-align: center; }
+#div1 { text-align: center; }
+*/
 .sign_word {
-    font-size: 20pt;
-    font-weight: bold;
-    line-height: 30px;
-    color: #ddcfcf;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #97e29d, 0 0 0.5em #97e0d7, 0 0 0.1em #bcdfa4;
+	font-size: 20pt;
+	font-weight: bold;
+	line-height: 30px;
+	color: #ddcfcf;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #97e29d, 0 0 0.5em #97e0d7, 0 0 0.1em #bcdfa4;
 }
+
 /*.sign-wrap-4 .sign_word {
-    animation: neon-4 linear infinite 2s;
+	animation: neon-4 linear infinite 2s;
 }
 @keyframes neon-4 {
-    78% {
-        color: inherit;
-        text-shadow: inherit;
-    }
-    79%{
-        color: #0b3960;
-    }
-    80% {
-        text-shadow: none;
-    }
-    81% {
-        color: inherit;
-        text-shadow: inherit;
-    }
-    82% {
-        color: #0b3960;
-        text-shadow: none;
-    }
-    83% {
-        color: inherit;
-        text-shadow: inherit;
-    }
-    92% {
-        color: #0b3960;
-        text-shadow: none;
-    }
-    92.5% {
-        color: inherit;
-        text-shadow: inherit;
-    }
+	78% {
+		color: inherit;
+		text-shadow: inherit;
+	}
+	79%{
+		color: #0b3960;
+	}
+	80% {
+		text-shadow: none;
+	}
+	81% {
+		color: inherit;
+		text-shadow: inherit;
+	}
+	82% {
+		color: #0b3960;
+		text-shadow: none;
+	}
+	83% {
+		color: inherit;
+		text-shadow: inherit;
+	}
+	92% {
+		color: #0b3960;
+		text-shadow: none;
+	}
+	92.5% {
+		color: inherit;
+		text-shadow: inherit;
+	}
 }*/
