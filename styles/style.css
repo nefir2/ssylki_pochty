@@ -11,7 +11,7 @@ body {
 }
 a {
 	text-decoration: none;
-	color: #962997;
+	color: #0014c5;
 }
 #mini {
 	font-size: 20px;
@@ -40,10 +40,10 @@ a {
 	font-size: 30pt;
 	font-weight: bold;
 	line-height: 30px;
-	color: #ddcfcf;
+	color: #090c24;
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
-	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #97e29d, 0 0 0.5em #97e0d7, 0 0 0.1em #bcdfa4;
+	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #514eff, 0 0 0.5em #2346b9, 0 0 0.1em #6d1661;
 }
 
 /*.sign-wrap-4 .sign_word {
