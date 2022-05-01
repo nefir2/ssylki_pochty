@@ -11,7 +11,7 @@ body {
 }
 a {
 	text-decoration: none;
-	color: #0014c5;
+	color: #6600c5;
 }
 #mini {
 	font-size: 20px;
@@ -27,8 +27,8 @@ a {
 	font-size: 30pt;
 	font-weight: bold;
 	line-height: 30px;
-	color: #090c24;
+	color: #0117bd;
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
-	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #514eff, 0 0 0.5em #2346b9, 0 0 0.1em #6d1661;
+	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #4ea1ff, 0 0 0.5em #23b95c, 0 0 0.1em #6d1661;
 }

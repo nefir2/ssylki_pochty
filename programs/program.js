@@ -17,12 +17,14 @@ setAtrb(bool);
 inpt.addEventListener('click', trueno);
 //функция при нажатии на галочку
 function trueno() {
-	//решение добавлять атрибут или нет
 	bool = !bool; //при срабатывании функции меняется значение переменной на противоположное
 	setAtrb(bool);
 	localStorage.setItem(locName, bool);
 }
-function setAtrb(set){
-	if (set) { for (var i = 0; i < olay.length; i++) olay[i].setAttribute('target', '_blank'); }
-	else { for (var i = 0; i < olay.length; i++) olay[i].removeAttribute('target'); }
+function toggleAtrb(set) 
+{//решение добавлять атрибут или нет
+	if (set) setAtrb();
+	else delAtrb();
 }
+function setAtrb() { for (var i = 0; i < olay.length; i++) olay[i].setAttribute('target', '_blank'); }
+function delAtrb() { for (var i = 0; i < olay.length; i++) olay[i].removeAttribute('target'); }
