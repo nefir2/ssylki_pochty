@@ -17,25 +17,12 @@ a {
 	font-size: 20px;
 	cursor: pointer;
 }
-/*
-.disk {
-	position: relative;
-	top: 155px;
-	right: 500px;
+.surname {
+	font-style: italic;
+	font-weight: 100;
+	color: #4c00c5;
 }
-#book { position: relative; }
-#Mail {
-	position: relative;
-	bottom: 24px;
-}
-#Other {
-	position: relative;
-	right: 500px;
-	top: 100px;
-}
-#div { text-align: center; }
-#div1 { text-align: center; }
-*/
+
 .sign_word {
 	font-size: 30pt;
 	font-weight: bold;
@@ -45,39 +32,3 @@ a {
 	text-transform: uppercase;
 	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #514eff, 0 0 0.5em #2346b9, 0 0 0.1em #6d1661;
 }
-
-/*.sign-wrap-4 .sign_word {
-	animation: neon-4 linear infinite 2s;
-}
-@keyframes neon-4 {
-	78% {
-		color: inherit;
-		text-shadow: inherit;
-	}
-	79%{
-		color: #0b3960;
-	}
-	80% {
-		text-shadow: none;
-	}
-	81% {
-		color: inherit;
-		text-shadow: inherit;
-	}
-	82% {
-		color: #0b3960;
-		text-shadow: none;
-	}
-	83% {
-		color: inherit;
-		text-shadow: inherit;
-	}
-	92% {
-		color: #0b3960;
-		text-shadow: none;
-	}
-	92.5% {
-		color: inherit;
-		text-shadow: inherit;
-	}
-}*/
