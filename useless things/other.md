@@ -1,4 +1,4 @@
-#старые ссылки:
+# старые ссылки:
 ```
 <a href="https://disk.yandex.ru/d/synITzVnQL3ysQ"> Задания бд</a>;<br>
 <a href="https://us04web.zoom.us/j/5671965296?pwd=ZFB1WTQ4T2NhUVBOdlUvVzlNNUtsUT09"> ZOOM Смольников В. В.</a>;<br>
@@ -6,7 +6,7 @@
 <a class="targ" href="https://drive.google.com/drive/folders/1VSmRDkvXiQUlA4yIASDk_b2l5Hl9JIMp"><span class="surname">Первушина</span></a>;<br>
 ```
 
-#неиспользуемые теги css:
+# неиспользуемые теги css:
 ```
 .disk {
 	position: relative;
@@ -27,7 +27,7 @@
 #div1 { text-align: center; }
 ```
 
-#и ещё немного неиспользуемых тегов css:
+# и ещё немного неиспользуемых тегов css:
 ```
 /*.sign-wrap-4 .sign_word {
 	animation: neon-4 linear infinite 2s;
@@ -62,6 +62,15 @@
 	92.5% {
 		color: inherit;
 		text-shadow: inherit;
+	}
+}
+```
+# нерабочий перенос половины ссылок, при входе на сайт с телефона
+```
+@media (maxwidth: 1338) {
+	#row2 {
+		transform: translateY(100%);
+		transform: translateX(-100%);
 	}
 }
 ```
