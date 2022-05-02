@@ -1,7 +1,7 @@
 body {
 	background-color: #0B0B0B;
 	font-size: 27pt;
-	color: #ddcfcf;
+	color: #000000;
 	background-image: url(../pics/phon/girl_and_the_pond.jpg);
 	background-repeat: no-repeat;
 	background-size:100%;
@@ -11,7 +11,7 @@ body {
 }
 a {
 	text-decoration: none;
-	color: #6600c5;
+	color: #000000;
 }
 #mini {
 	font-size: 20px;
@@ -21,6 +21,9 @@ a {
 	font-style: italic;
 	font-weight: 100;
 	color: #4c00c5;
+}
+.language{
+	color: #ec0000;
 }
 
 .sign_word {
