@@ -12,13 +12,13 @@ if (localStorage.hasOwnProperty(locName)) {
 }
 //синхронизация значений с памятью
 inpt.checked = bool;
-setAtrb(bool);
+toggleAtrb(bool);
 //нажатие на галочку
 inpt.addEventListener('click', trueno);
 //функция при нажатии на галочку
 function trueno() {
 	bool = !bool; //при срабатывании функции меняется значение переменной на противоположное
-	setAtrb(bool);
+	toggleAtrb(bool);
 	localStorage.setItem(locName, bool);
 }
 function toggleAtrb(set) 
