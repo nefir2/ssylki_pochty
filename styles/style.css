@@ -4,11 +4,13 @@ body {
 	color: #000000;
 	background-image: url(../pics/phon/girl_and_the_pond.jpg);
 	background-repeat: no-repeat;
-	background-size:100%;
+	background-size: 55em;
 }
+/*
 #refdiv{
 	vertical-align: middle;
 }
+*/
 a {
 	text-decoration: none;
 	color: #000000;
