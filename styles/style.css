@@ -1,8 +1,8 @@
 body {
-	background-color: #0B0B0B;
+	background-color: #123456;
 	font-size: 27pt;
 	color: #000000;
-	background-image: url(../pics/phon/girl_and_the_pond.jpg);
+	/*background-image: url(../pics/phon/girl_and_the_pond.jpg);*/
 	background-repeat: no-repeat;
 	background-size: 55em;
 }
@@ -15,7 +15,7 @@ a {
 	text-decoration: none;
 	color: #000000;
 }
-#mini {
+.mini {
 	font-size: 20px;
 	cursor: pointer;
 }
