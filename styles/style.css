@@ -18,6 +18,7 @@ a {
 .mini {
 	font-size: 20px;
 	cursor: pointer;
+	line-height: 5px;
 }
 .surname {
 	font-style: italic;
