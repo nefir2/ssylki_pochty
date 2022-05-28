@@ -4,6 +4,10 @@
 <a href="https://us04web.zoom.us/j/5671965296?pwd=ZFB1WTQ4T2NhUVBOdlUvVzlNNUtsUT09"> ZOOM Смольников В. В.</a>;<br>
 <a href="https://disk.yandex.ru/d/49TQDgeBnFv4Bg"> Задания ос</a>;<br>
 <a class="targ" href="https://drive.google.com/drive/folders/1VSmRDkvXiQUlA4yIASDk_b2l5Hl9JIMp"><span class="surname">Первушина</span></a>;<br>
+<a class="targ" href="https://mail.google.com/mail/u/0/?hl=ru&tf=cm&fs=1&to=kolomoytsevda@26kadr.ru"><span class="surname">kolomoytsev</span>da@26kadr.ru</a>.<br>
+<a class="targ" href="https://discord.gg/n6gdmCCyU4">дискорд <span class="surname">Первушина</span></a>;<br>
+<a class="targ" href="https://disk.yandex.ru/d/I0WO5UtkXqsSlg"><span class="surname">Зяблов</span></a>;<br>
+<a class="targ" href="https://disk.yandex.ru/d/KO7EoxU_kfFohA"><span class="surname">Смольников</span></a>;<br>
 ```
 
 # неиспользуемые теги css:
