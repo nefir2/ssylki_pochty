@@ -36,7 +36,7 @@ function changeBg() {
 	localStorage.setItem(sbg, boolbg);
 }
 function toggleBg(what){
-	if (what) document.body.style.backgroundImage = 'url(pics/phon/girl_and_the_pond.jpg)'; // убрал ../ так как настройки фона ставятся прямо в главный html файл
+	if (what) document.body.style.backgroundImage = 'url(pics/phon/girl_and_the_pond.jpg)'; // убрал "../" так как настройки фона ставятся прямо в главный html файл
 	else document.body.style.backgroundImage = '';
 }
 function toggleAtrb(set) 
