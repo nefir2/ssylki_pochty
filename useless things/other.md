@@ -8,6 +8,13 @@
 <a class="targ" href="https://discord.gg/n6gdmCCyU4">дискорд <span class="surname">Первушина</span></a>;<br>
 <a class="targ" href="https://disk.yandex.ru/d/I0WO5UtkXqsSlg"><span class="surname">Зяблов</span></a>;<br>
 <a class="targ" href="https://disk.yandex.ru/d/KO7EoxU_kfFohA"><span class="surname">Смольников</span></a>;<br>
+
+
+<a class="targ" href="http://htmlbook.ru/html"><span class="language">HTML</span></a>
+<a class="targ" href="http://htmlbook.ru"> и </a>
+<a class="targ" href="http://htmlbook.ru/css"><span class="language">CSS</span></a>;<br>
+
+<a class="targ" href="https://learn.javascript.ru"><span class="language">JavaScript</span></a>;<br>
 ```
 
 # неиспользуемые теги css:
