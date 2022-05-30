@@ -1,7 +1,7 @@
 body {
-	background-color: #3C6ED1;
+	background-color: #000653;
 	font-size: 27pt;
-	color: #000000;
+	color: #3f3f3f;
 	/*background-image: url(../pics/phon/girl_and_the_pond.jpg);*/
 	background-repeat: no-repeat;
 	background-size: 55em;
@@ -25,15 +25,19 @@ a {
 	font-weight: 100;
 	color: #4c00c5;
 }
-.language{
+.language {
 	color: #ec0000;
 }
 
 .sign_word {
+	font-style: italic;
+	color: #4c00c5;
+	font-weight: 100;
+
 	font-size: 30pt;
-	font-weight: bold;
+	/* font-weight: bold; */
 	line-height: 30px;
-	color: #0117bd;
+	/* color: #0117bd; */
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 	text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #4ea1ff, 0 0 0.5em #23b95c, 0 0 0.1em #6d1661;
