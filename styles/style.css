@@ -15,6 +15,9 @@ a {
 	text-decoration: none;
 	color: #000000;
 }
+#underline {
+	text-decoration: underline;
+}
 .mini {
 	font-size: 20px;
 	cursor: pointer;
