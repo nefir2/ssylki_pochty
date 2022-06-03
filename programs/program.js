@@ -1,6 +1,6 @@
 //переменные
 let olay, blank, switchbg, text;
-let bool = true, boolbg = false; //стоковое значение для переменной, при первом открытии сайта
+let bool = true, boolbg = true; //стоковое значение для переменной, при первом открытии сайта
 const locName = "isChecked";
 const sbg = "Background";
 //места из html
