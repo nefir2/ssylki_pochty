@@ -10,6 +10,9 @@
 <a class="targ" href="https://disk.yandex.ru/d/KO7EoxU_kfFohA"><span class="surname">Смольников</span></a>;<br>
 
 
+<a class="targ" href="https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2FNKbT4OuZzfrdtszAa9x%2FeIxJudwaUXNZ0%2Bwvr5RBluGb69CYiNFDq%2BNbEYIKTefWq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2FЗадание%208.docx&name=Задание%208.docx&nosw=1">сайт landing page <span class="language">html, css, js</span></a>;<br>
+<a class="targ" href="https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2FNKbT4OuZzfrdtszAa9x%2FeIxJudwaUXNZ0%2Bwvr5RBluGb69CYiNFDq%2BNbEYIKTefWq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2FЗадание%209.docx&name=Задание%209.docx&nosw=1">многостраничный сайт <span class="language">html, css, js</span></a>;<br>
+
 ```
 
 # неиспользуемые теги css:
