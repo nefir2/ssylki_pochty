@@ -1,4 +1,4 @@
-# старые ссылки:
+### старые ссылки:
 ``` html
 <a href="https://disk.yandex.ru/d/synITzVnQL3ysQ"> Задания бд</a>;<br>
 <a href="https://us04web.zoom.us/j/5671965296?pwd=ZFB1WTQ4T2NhUVBOdlUvVzlNNUtsUT09"> ZOOM Смольников В. В.</a>;<br>
@@ -15,7 +15,7 @@
 
 ```
 
-# неиспользуемые теги css:
+### неиспользуемые теги css:
 ``` css
 .disk {
 	position: relative;
@@ -36,7 +36,7 @@
 #div1 { text-align: center; }
 ```
 
-# и ещё немного неиспользуемых тегов css:
+### и ещё немного неиспользуемых тегов css:
 ``` css
 /*.sign-wrap-4 .sign_word {
 	animation: neon-4 linear infinite 2s;
@@ -74,7 +74,7 @@
 	}
 }
 ```
-# нерабочий перенос половины ссылок, при входе на сайт с телефона
+### нерабочий перенос половины ссылок, при входе на сайт с телефона
 ``` css
 @media (maxwidth: 1338) {
 	#row2 {
